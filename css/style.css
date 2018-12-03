@@ -202,6 +202,7 @@ figure {
   background: #fff;
   margin-right: -30px;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
@@ -235,6 +236,18 @@ figure {
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 480px) {
+  #fh5co-header .navbar > li {
+    margin-right: 0.5em;
+  }
+
+  #fh5co-header .display-tc .fh5co-social-icons li a,
+  .fh5co-cover .display-tc .fh5co-social-icons li a {
+    padding: 0 0 0 0.2em;
+  }
+}
+
 #fh5co-header .display-tc h2,
 .fh5co-cover .display-tc h2 {
   font-size: 20px;
